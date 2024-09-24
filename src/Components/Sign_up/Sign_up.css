@@ -1,0 +1,87 @@
+.parent_div {
+    height: 40vmax;
+    width: 70vmax;
+    background-color: rgb(255, 145, 0);
+    margin-left: 15vmax;
+    display: flex; 
+    border: 2px solid black;
+    justify-content: flex-start; /* Align children to the start */
+}
+
+.child_01 {
+    flex-basis: 30%;  /* Explicitly set the width to 20% */
+    background-color: rgb(230, 207, 207);
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.child_02 {
+    flex-basis: 60%;  /* Explicitly set the width to 60% */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.div1 img{
+    margin-left: -19vmax;
+    margin-top: -1.5vmax;
+
+}
+
+.div1 h4{
+    display: flex;
+    margin-top: -3.1vmax;
+    margin-left: 4vmax;
+}
+
+.div2{
+    padding-top: 7vmax;
+}
+
+.button1{
+    margin-top: 5vmax;
+    background-color: rgb(255, 248, 247);
+    
+  
+}
+
+.button2{
+    margin-top: 3vmax;
+    background-color: rgb(219, 83, 86);
+}
+.thirdparty_login{
+    display: flex;
+    margin-left: 5vmax;
+     padding-left: 10vmax;
+    
+  }
+
+  .Username {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  .user_name_input {
+    width: 25vmax;
+    padding: 10px 10px 10px 60px; /* Make room for the image */
+    font-size: 16px;
+
+  }
+
+  /* Style for the image */
+  .Username img {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    
+    margin-left: 6vmax;
+  }
+
+  #button1_link{
+    color: rgb(180, 7, 7);
+  }

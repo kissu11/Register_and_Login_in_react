@@ -1,0 +1,105 @@
+.parent_div{
+    height: 40vmax;
+    width: 70vmax;
+    background-color: rgb(255, 145, 0);
+    margin-left: 15vmax;
+    display: flex;           /* Makes the parent a flex container */
+    justify-content: space-between; 
+    border: 2px solid black;
+}
+
+.child_011 {
+    /* flex: 1;                
+    background-color: rgb(166, 220, 175);
+    padding: 20px;
+    text-align: center; */
+    flex-basis: 30%;  /* Explicitly set the width to 20% */
+    background-color: rgb(220, 234, 246);
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0; /* Prevent shrinking */
+  
+  }
+
+  .child_02 {
+    flex: 1;                 /* Makes each child take up equal space */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+
+   #a{
+    margin-left: 30vmax;
+   }
+
+.Username {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  /* Style for the input field */
+  .user_name_input {
+    width: 25vmax;
+    padding: 10px 10px 10px 40px; /* Make room for the image */
+    font-size: 16px;
+  }
+
+  /* Style for the image */
+  .Username img {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+
+  .show_password{
+    margin-left: -18vmax;
+    margin-top: -2vmax;
+  }
+
+  #forget_password{
+   margin-left: 20vmax;
+   cursor: pointer;
+    
+  }
+
+  .Login_button{
+
+    background-color: rgb(216, 194, 141);
+    margin-top: 3vmax;
+    width:10vmax;
+  }
+
+  hr{
+    width: 10vmax;
+    display: inline-block;
+    margin-right: 1vmax;
+    margin-left: 1vmax;
+  }
+
+  #or_with{
+
+    margin-top: 3vmax;
+
+  }
+
+  .thirdparty_login{
+    display: flex;
+     padding-left: 10vmax;
+    
+  }
+  .thirdparty_login img{
+    margin-left: 2vmax;
+    margin-top: 2vmax;
+    cursor: pointer;
+  }
+
+  #create_new{
+    margin-left: 20vmax;
+  }
+
+  #img_div1{
+    margin-left: 1vmax;
+  }
